@@ -428,6 +428,45 @@
             </svg>
           </button>
         </div>
+        <form class="form">
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="form-field">
+            <label for="user-name" class="form-label">Им'я</label>
+            <input type="text" name="user-name" id="user-name" class="form-input" />
+          </div>
+          <div class="form-field">
+            <label for="user-tel">Телефон</label>
+            <input type="tel" name="user-tel" id="user-tel" placeholder="Телефон" />
+          </div>
+          <div class="form-field">
+            <label for="user-mail">Почта</label>
+            <input type="email" name="user-mail" id="user-mail" />
+          </div>
+          <div class="form-field">
+            <label for="comment">Оставить коментарий</label>
+            <textarea name="comment" rows="5" placeholder="Введите текст" class="form-comment"></textarea>
+          </div>
+          <div class="form-field">
+            <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+            <input type="checkbox" name="policy" id="policy" />
+          </div>
+          <button type="submit" class="button-hero">Отправить</button>
+
+          <div role="group">
+            <label for="junior">Junior</label>
+            <input type="radio" name="experience" value="junior" id="junior" />
+            <label for="midle">Midle</label>
+            <input type="radio" name="experience" value="senior" id="senior" />
+            <label for="senior">Senior</label>
+            <input type="radio" name="experience" value="junior" id="junior" />
+
+            <label for="date">Дата</label>
+            <input type="datetime-local" name="date" id="date" min="2020-04-12T12:30" class="date"/>
+
+            <label for="pdf">Загрузить файл</label>
+            <input type="file" name="pdf" />
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
