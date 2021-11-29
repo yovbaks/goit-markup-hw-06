@@ -598,7 +598,8 @@ li {
 .connect-list {
   display: flex;
 }
-.connect-title {
+.connect-title,
+.subscribe-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -625,7 +626,73 @@ li {
 .connect-icon:focus {
   background-color: var(--theme-color);
 }
+/* --------------SUBSCRIBE--------------  */
+.subscribe {
+  margin-left: 93px;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-input {
+  min-width: 358px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 15px 16px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.subscribe-input::placeholder{
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border-style: none;
+  padding: 10px 29px;
+  overflow: hidden;
+
+  transition: background-color var(--ttime) var(--cubic), fill var(--ttime) var(--cubic);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: var(--title-color);
+  background-color: var(--white-color);
+  border-color: transparent;
+}
+.subscribe-icon {
+  margin-left: 10px;
+  fill: var(--white-color);
+}
+.subscribe-btn:hover .subscribe-icon{
+  fill: var(--title-color);
+}
+
 /* --------------BACKDROP--------------  */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -695,72 +762,59 @@ li {
 
 /* --------------FORMS--------------  */
 
-.modal-title{
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-
-margin-bottom: 12px;
+  margin-bottom: 12px;
 }
-.form-field label{
+.form-field label {
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
 
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-letter-spacing: 0.01em;
-color: #757575;
-
-padding-bottom: 4px;
+  padding-bottom: 4px;
 }
 
-.form{
- 
+.form {
   display: block;
 
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
 }
-.form-field{
+.form-field {
   display: flex;
   flex-direction: column;
- 
- 
-
 }
-.form-field input{
-  
+.form-field input {
   padding: 6px 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 10px;
 
- border-radius: 4px;
+  border-radius: 4px;
 }
-.form-field input::placeholder{
-  color:violet;
-}
-.form .date{
-
+.form-field input::placeholder {
+  color: violet;
 }
 
-.form-comment{
-padding: 12px 16px;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.01em;
+.form-comment {
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
 
-color: rgba(117, 117, 117, 0.5);
-
+  color: rgba(117, 117, 117, 0.5);
 }
-.form-field textarea{
- 
+.form-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
- border-radius: 4px;
-
+  border-radius: 4px;
 }

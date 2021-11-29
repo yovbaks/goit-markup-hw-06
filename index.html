@@ -417,6 +417,25 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="subscribe-title">Подпишитесь на рассилку</p>
+          <div class="subscribe-form">
+            <label for="subscribe" class="subscribe-label"></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="subscribe-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-btn">
+              Подписаться
+              <svg width="24px" height="24px" class="subscribe-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -431,7 +450,7 @@
         <form class="form">
           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
-            <label for="user-name" class="form-label">Им'я</label>
+            <label for="user-name" class="form-label">Имя</label>
             <input type="text" name="user-name" id="user-name" class="form-input" />
           </div>
           <div class="form-field">
@@ -443,8 +462,13 @@
             <input type="email" name="user-mail" id="user-mail" />
           </div>
           <div class="form-field">
-            <label for="comment">Оставить коментарий</label>
-            <textarea name="comment" rows="5" placeholder="Введите текст" class="form-comment"></textarea>
+            <label for="comment">Коментарий</label>
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder="Введите текст"
+              class="form-comment"
+            ></textarea>
           </div>
           <div class="form-field">
             <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
@@ -461,7 +485,13 @@
             <input type="radio" name="experience" value="junior" id="junior" />
 
             <label for="date">Дата</label>
-            <input type="datetime-local" name="date" id="date" min="2020-04-12T12:30" class="date"/>
+            <input
+              type="datetime-local"
+              name="date"
+              id="date"
+              min="2020-04-12T12:30"
+              class="date"
+            />
 
             <label for="pdf">Загрузить файл</label>
             <input type="file" name="pdf" />
