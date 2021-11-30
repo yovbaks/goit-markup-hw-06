@@ -212,10 +212,7 @@ li {
 
 /* ---------------- Button -------------  */
 /* ---------------- Button -------------  */
-.button {
-  background-color: var(--bgcolor2);
-  color: var(--title-color);
-  border-color: var(--bgcolor2);
+.btn-all{
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
@@ -223,6 +220,13 @@ li {
   line-height: 1.9;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  border-style: none;
+}
+.button {
+  background-color: var(--bgcolor2);
+  color: var(--title-color);
+  border-color: var(--bgcolor2);
+  
   min-width: 73px;
   border-style: none;
 
@@ -243,17 +247,8 @@ li {
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  cursor: pointer;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  border-style: none;
-  padding: 10px 32px;
+    padding: 10px 32px;
   overflow: hidden;
-
   transition: background-color var(--ttime) var(--cubic);
 }
 
@@ -456,10 +451,7 @@ li {
   margin-top: 30px;
   background: #ffffff;
 }
-/* .gallery-item:hover,
-.gallery-item:focus {
-  box-shadow: var(--box-shadows-item);
-} */
+
 .gallery-item-link {
   transition: box-shadow var(--ttime) var(--cubic);
 }
@@ -659,18 +651,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 50px;
+
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  cursor: pointer;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  border-style: none;
+ 
   padding: 10px 29px;
   overflow: hidden;
 
@@ -818,3 +805,21 @@ li {
 
   border-radius: 4px;
 }
+
+.button-form{
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  height: 50px;
+  min-width: 200px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ 
+}
+
+/* .button-form:hover,
+.button-form:focus {
+  color: var(--title-color);
+  background-color: var(--white-color);
+  border-color: transparent;
+} */
