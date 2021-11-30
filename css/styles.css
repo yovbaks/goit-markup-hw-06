@@ -703,6 +703,7 @@ li {
 /* --------------MODAL--------------  */
 
 .modal {
+ 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -715,7 +716,9 @@ li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  
 }
+
 
 .btn-close {
   position: fixed;
@@ -771,6 +774,8 @@ li {
 
 .form {
   display: block;
+  justify-content: center;
+  align-items: center;
 
   margin-left: auto;
   margin-right: auto;
@@ -798,6 +803,7 @@ li {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+  resize: none;
 }
 .form-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -807,6 +813,10 @@ li {
 }
 
 .button-form{
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
@@ -814,7 +824,11 @@ li {
   min-width: 200px;
   padding: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
  
+}
+.policy{
+  text-align: center;
 }
 
 /* .button-form:hover,
