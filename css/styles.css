@@ -897,4 +897,5 @@ li {
 .link-policy {
   color: var(--theme-color);
   text-decoration: underline;
+  margin-left: 5px;
 }
