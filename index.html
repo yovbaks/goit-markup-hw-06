@@ -434,7 +434,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <div class="close">
           <button class="btn-close" data-modal-close>
@@ -446,54 +446,57 @@
         <form class="form">
           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
-            <label for="user-name" class="form-label">Имя</label>
-            <input type="text" name="user-name" id="user-name" class="form-input" />
+            <label class="form-field-label" for="user-name" class="form-label">Имя</label>
+            <div class="form-input-wrap">
+              <input
+                class="form-field-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                autofocus
+              />
+              <svg width="18px" height="18px" class="form-input-icon">
+                <use href="./images/icons.svg#person-form"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-field">
-            <label for="user-tel">Телефон</label>
-            <input type="tel" name="user-tel" id="user-tel" placeholder="Телефон" />
+            <label class="form-field-label" for="user-tel">Телефон</label>
+            <div class="form-input-wrap">
+              <input class="form-field-input" type="tel" name="user-tel" id="user-tel" /><svg
+                width="18px"
+                height="18px"
+                class="form-input-icon"
+              >
+                <use href="./images/icons.svg#phone-form"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-field">
-            <label for="user-mail">Почта</label>
-            <input type="email" name="user-mail" id="user-mail" />
+            <label class="form-field-label" for="user-tel">Почта</label>
+            <div class="form-input-wrap">
+              <input class="form-field-input" type="tel" name="user-tel" id="user-tel" /><svg
+                width="18px"
+                height="18px"
+                class="form-input-icon"
+              >
+                <use href="./images/icons.svg#email-form"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-field">
-            <label for="comment">Коментарий</label>
-            <textarea
-              name="comment"
-              rows="6"
-              placeholder="Введите текст"
-              class="form-comment"
-            ></textarea>
+            <label class="form-field-label" for="comment">Коментарий</label>
+            <textarea name="comment" placeholder="Введите текст" class="form-comment"></textarea>
           </div>
-          <div class="">
-            <label class="policy">
-              <input type="checkbox" name="policy" id="policy" />
-              Соглашаюсь с рассылкой и принимаю Условия договора
+          <div class="form-check">
+            <label class="input-check">
+              <input class="checkbox" type="checkbox" name="policy" id="policy" /><span
+                class="check-icon"
+              ></span
+              >Соглашаюсь с рассылкой и принимаю<a href="#" class="link-policy">Условия договора</a>
             </label>
           </div>
           <button type="submit" class="button-form btn-all">Отправить</button>
-
-          <!-- <div role="group">
-            <label for="junior">Junior</label>
-            <input type="radio" name="experience" value="junior" id="junior" />
-            <label for="midle">Midle</label>
-            <input type="radio" name="experience" value="senior" id="senior" />
-            <label for="senior">Senior</label>
-            <input type="radio" name="experience" value="junior" id="junior" />
-
-            <label for="date">Дата</label>
-            <input
-              type="datetime-local"
-              name="date"
-              id="date"
-              min="2020-04-12T12:30"
-              class="date"
-            />
-
-            <label for="pdf">Загрузить файл</label>
-            <input type="file" name="pdf" />
-          </div> -->
         </form>
       </div>
     </div>
