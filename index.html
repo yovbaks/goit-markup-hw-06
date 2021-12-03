@@ -420,7 +420,7 @@
             <input
               type="email"
               name="email"
-              id="email"
+              id="subscribe"
               class="subscribe-input"
               placeholder="E-mail"
             />
@@ -446,7 +446,7 @@
         <form class="form">
           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
-            <label class="form-field-label" for="user-name" class="form-label">Имя</label>
+            <label class="form-field-label" for="user-name">Имя</label>
             <div class="form-input-wrap">
               <input
                 class="form-field-input"
@@ -472,9 +472,9 @@
           </div>
 
           <div class="form-field">
-            <label class="form-field-label" for="user-tel">Почта</label>
+            <label class="form-field-label" for="user-mail">Почта</label>
             <div class="form-input-wrap">
-              <input class="form-field-input" type="tel" name="user-tel" id="user-tel" /><svg
+              <input class="form-field-input" type="tel" name="user-tel" id="user-mail" /><svg
                 width="18px"
                 height="18px"
                 class="form-input-icon"
@@ -485,29 +485,31 @@
           </div>
           <div class="form-field">
             <label class="form-field-label" for="comment">Коментарий</label>
-            <textarea name="comment" placeholder="Введите текст" class="form-comment"></textarea>
+            <textarea
+              name="comment"
+              placeholder="Введите текст"
+              class="form-comment"
+              id="comment"
+            ></textarea>
           </div>
           <div class="modal-checkbox">
-            <input type="checkbox" name="policy" id="policy" class="input-modal-check visually-hidden" />
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="input-modal-check visually-hidden"
+            />
             <label for="policy" class="check-text"
-              ><span class="check-item"><svg
-                width="11px"
-                height="8px"
-                class="check-icon"
-              >
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg></span> Соглашаюсь с рассылкой и принимаю  <span class="link-policy"> Условия договора</span></label
+              ><span class="check-item"
+                ><svg width="11px" height="8px" class="check-icon">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              Соглашаюсь с рассылкой и принимаю
+              <span class="link-policy"> Условия договора</span></label
             >
           </div>
 
-          <!-- <div class="form-check">
-            <label class="input-check">
-              <input class="checkbox" type="checkbox" name="policy" id="policy" /><span
-                class="check-icon"
-              ></span
-              >Соглашаюсь с рассылкой и принимаю<a href="#" class="link-policy">Условия договора</a>
-            </label>
-          </div> -->
           <button type="submit" class="button-form btn-all">Отправить</button>
         </form>
       </div>

@@ -635,7 +635,7 @@ li {
   line-height: 1.25;
   padding: 15px 16px;
   letter-spacing: 0.03em;
-outline: none;
+  outline: none;
   color: rgba(255, 255, 255, 0.6);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -666,11 +666,8 @@ outline: none;
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: var(--bgcolor2);
-  color: var(--title-color);
-  border-color: var(--bgcolor2);
+  background-color: #188ce8;
   border-color: transparent;
-  
 }
 .subscribe-icon {
   margin-left: 10px;
@@ -827,23 +824,23 @@ outline: none;
   resize: none;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
- 
+
   height: 120px;
   border-radius: 4px;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .form-comment::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color:rgba(117, 117, 117, 0.5);;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .button-form {
   /* position: relative;
   left: 50%;
   transform: translate(-50%, 0); */
-cursor: pointer;
+  cursor: pointer;
   display: block;
   margin: 0 auto;
 
@@ -854,20 +851,17 @@ cursor: pointer;
   min-width: 200px;
   padding: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color var(--ttime) var(--cubic), color var(--ttime) var(--cubic);
+  transition: background-color var(--ttime) var(--cubic);
 }
 .button-form:hover {
-  background-color: var(--bgcolor2);
-  color: var(--title-color);
-  border-color: var(--bgcolor2);
+  background-color: #188ce8;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-
-.modal-checkbox{
+.modal-checkbox {
   display: flex;
-  
+
   align-items: center;
 }
 .check-text {
@@ -891,18 +885,16 @@ cursor: pointer;
   justify-content: center;
   transition: background-color var(--ttime) var(--cubic);
 }
-.check-icon{
-  fill:var(--white-color);
+.check-icon {
+  fill: var(--white-color);
 }
 
-.input-modal-check:checked +.check-text .check-item{
-background-color: var(--theme-color);
-border: none;
-
+.input-modal-check:checked + .check-text .check-item {
+  background-color: var(--theme-color);
+  border: none;
 }
 
 .link-policy {
-  
   color: var(--theme-color);
   text-decoration: underline;
 }
