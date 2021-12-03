@@ -152,22 +152,8 @@
         d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"
       />
 </symbol>
-<symbol id="icon-check" viewBox="0 0 32 32">
-<path
-        fill="#2196f3"
-        style="fill: var(--color1, #2196f3)"
-        d="M4 1h24c2.209 0 4 1.791 4 4v22c0 2.209-1.791 4-4 4h-24c-2.209 0-4-1.791-4-4v-22c0-2.209 1.791-4 4-4z"
-      />
-<path
-        fill="#fff"
-        style="fill: var(--color2, #fff); stroke: var(--color2, #fff)"
-        stroke="#fff"
-        stroke-linejoin="miter"
-        stroke-linecap="butt"
-        stroke-miterlimit="4"
-        stroke-width="0.4"
-        d="M7.914 16.503l-0.138-0.131-2.067 1.958 7.282 6.947 15.298-14.594-2.053-1.959-13.245 12.623-5.077-4.844z"
-      />
+<symbol id="icon-check" viewBox="0 0 42 32">
+<path   d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
 </symbol>
 <symbol id="email-form" viewBox="0 0 32 32">
 <path
