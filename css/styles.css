@@ -652,8 +652,6 @@ li {
   justify-content: center;
   align-items: center;
 
-  height: 50px;
-
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
@@ -780,12 +778,11 @@ li {
   flex-direction: column;
   margin-bottom: 10px;
 }
-.form-field-comment{
+.form-field-comment {
   margin-bottom: 20px;
-   position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
-  
 }
 .form-input-wrap {
   position: relative;
@@ -804,7 +801,7 @@ li {
   height: 40px;
   padding: 11px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  
+
   border-radius: 4px;
   outline: none;
   font-family: inherit;
@@ -835,7 +832,6 @@ li {
 
   height: 120px;
   border-radius: 4px;
-  
 }
 .form-comment::placeholder {
   font-size: 14px;
@@ -845,7 +841,6 @@ li {
 }
 
 .button-form {
-  
   cursor: pointer;
   display: block;
   margin: 0 auto;
@@ -853,19 +848,15 @@ li {
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
-  height: 50px;
-  min-width: 200px;
-  padding: 10px;
+  padding: 10px 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--ttime) var(--cubic);
-  margin-top: 30px;
-}
+ }
 .button-form:hover {
   background-color: #188ce8;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
 
 /* .form-chek {
   margin-bottom: 110px;
@@ -909,9 +900,8 @@ li {
   text-decoration: underline;
   margin-left: 5px; 
 }  */
--------------------------------------------
-
- .modal-checkbox {
+/* -------------------------------------------  */
+.modal-checkbox {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
@@ -923,13 +913,12 @@ li {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-  
 }
 .link-policy {
   color: var(--theme-color);
   text-decoration: underline;
-  margin-left: 5px; 
-} 
+  margin-left: 5px;
+}
 
 .check-item {
   display: block;
@@ -953,6 +942,5 @@ li {
 }
 
 .input-modal-check:focus + .check-text .check-item {
- border-color: var(--theme-color);
-  
+  border-color: var(--theme-color);
 }
